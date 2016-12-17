@@ -1,0 +1,65 @@
+{
+  "Login" : [
+      { "/var/www/demo/rpc/" : "rpcLoginServer.php" },
+      { "/var/www/demo/classes/Controllers/" : "loginController.class.php" },
+      { "/var/www/demo/classes/Views/" : "loginView.class.php" }
+            ],
+  "Logger" :[
+      { "/var/www/demo/rpc/" : "rpcLogger.php" }
+            ],
+  "Signup" : [
+      { "/var/www/demo/rpc/" : "rpcSignupServer.php" },
+      { "/var/www/demo/classes/Controllers/" : "signupController.class.php" },
+      { "/var/www/demo/classes/Views/" : "signupView.class.php" }
+             ],
+  "Homepage" : [
+      { "/var/www/demo/classes/Controllers/" : "homepageController.class.php" },
+      { "/var/www/demo/classes/Views/" : "homeView.class.php" }
+               ],
+  "Scaffold" : [
+      { "/var/www/demo/" : "index.php" },
+      { "/var/www/demo/classes/" : "app.class.php" },
+      { "/var/www/demo/classes/Controllers/" : "Controllers.class.php" },
+      { "/var/www/demo/classes/Views/" : "View.class.php" },
+      { "/var/www/demo/classes/" : "dbConn.class.php" }
+               ],
+  "Config" : [
+      { "/var/www/demo/" : "composer.json" },
+      { "/var/www/demo/" : "config.php" }
+              ],
+  "Arrests" : [
+      { "/var/www/demo/" : "getData.php" },
+      { "/var/www/demo/classes/Controllers/" : "arrestController.class.php" },
+      { "/var/www/demo/classes/Views/" : "arrestView.class.php" }
+              ],
+  "Players" : [
+      { "/var/www/demo/classes/Controllers/" : "playerListController.class.php" },
+      { "/var/www/demo/classes/Controllers/" : "playerProfileController.class.php" },
+      { "/var/www/demo/classes/Views/" : "playerListView.class.php" },
+      { "/var/www/demo/classes/Models/" : "playerModel.class.php" },
+      { "/var/www/demo/rpc/" : "rpcPlayerlistServer.php" }
+              ],
+  "SignedIn" : [
+      { "/var/www/demo/classes/Controllers/" : "signedInController.class.php" },
+      { "/var/www/demo/classes/Views/" : "signedInView.class.php" },
+      { "/var/www/demo/classes/Views/" : "noTokenView.class.php" }
+               ],
+  "UserAcct" : [
+      { "/var/www/demo/classes/Controllers/" : "userAcctController.class.php" },
+      { "/var/www/demo/classes/Views/" : "userAcctView.class.php" },
+      { "/var/www/demo/rpc/" : "rpcUserInfo.php" }
+               ],
+  "CSS" : [
+      { "/var/www/demo/css/" : "main.css" },
+      { "/var/www/demo/css/" : "bootstrap.min.css" },
+      { "/var/www/demo/css/" : "bootstrap.min.css.map" },
+      { "/var/www/demo/css/" : "bootstrap-theme.min.css" },
+      { "/var/www/demo/css/" : "bootstrap-theme.min.css.map" }
+          ],
+  "JS" : [
+      { "/var/www/demo/js/" : "bootstrap.min.js" }
+         ],
+  "Images" : [
+      { "/var/www/demo/img/" : "footballIcon.jpg" }
+             ]
+}
